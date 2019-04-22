@@ -1,0 +1,25 @@
+.footer .container {
+  max-width: 504px;
+  margin: 1.8rem 1.5rem 0 auto;
+}
+
+.footer-button {
+  border: 0;
+  padding: 0 2.6rem;
+}
+
+.footer-button:first-of-type {
+  padding-left: 0;
+}
+
+.footer-button:hover {
+  cursor: pointer;
+}
+
+.footer-button span {
+  margin-left: 14px;
+}
+
+.footer-button i {
+  font-size: 1.8rem;
+}
