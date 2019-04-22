@@ -1,7 +1,6 @@
 /* All styles for your Card Components live here */
 
 .card-container {
-  border: 1px solid #8899A6;
   border-radius: 5px;
   display: block;
   max-width: 504px;
@@ -22,6 +21,9 @@
 
 .card-content {
   padding: 1.3rem 1.5rem 0.3rem;
+  border: 1px solid #8899A6;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .card-content h4 {
