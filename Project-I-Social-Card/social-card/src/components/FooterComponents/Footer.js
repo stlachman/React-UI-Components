@@ -1,25 +1,16 @@
 import React from "react";
 import "./Footer.css";
+import FooterButton from "./FooterButton";
 
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
-        <button className="footer-button">
-            <i className="far fa-comment fa-flip-horizontal"></i>
-        </button>
-        <button className="footer-button">
-            <i className="fas fa-sync"></i>
-            <span>6</span>
-        </button>
-        <button className="footer-button">
-            <i className="far fa-heart"></i>
-            <span>4</span>
-        </button>
-        <button className="footer-button">
-            <i className="far fa-envelope"></i>
-        </button>
+        <FooterButton icon="far fa-comment fa-flip-horizontal"/>
+        <FooterButton icon="fas fa-sync" span={6}/>
+        <FooterButton icon="far fa-heart" span={4}/>
+        <FooterButton icon="far fa-envelope"/>
       </div>
     </div>
   );

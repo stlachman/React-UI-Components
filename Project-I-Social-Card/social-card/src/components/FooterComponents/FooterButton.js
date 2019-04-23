@@ -3,8 +3,11 @@ import "./Footer.css";
 
 function FooterButton(props) {
   return (
-    <button className="footer-button">
-        <i className="far fa-comment fa-flip-horizontal"></i>
+    <button className={`footer-button`}>
+        <i className={props.icon}></i>
+        {props.span > 0 &&
+          <span>{props.span}</span>
+        }
     </button>
   );
 }
