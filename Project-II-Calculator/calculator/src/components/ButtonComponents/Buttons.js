@@ -4,7 +4,7 @@ import ActionButton from './ActionButton';
 import NumberButton from './NumberButton';
 
 
-const Buttons = () => {
+const Buttons = (props) => {
   return (
     <div className="button-container">
       <div className="row row--action">

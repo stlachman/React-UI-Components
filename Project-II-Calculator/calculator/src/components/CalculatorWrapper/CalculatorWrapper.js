@@ -5,10 +5,10 @@ import CalculatorDisplay from '../DisplayComponents/CalculatorDisplay';
 import Buttons from '../ButtonComponents/Buttons';
 
 
-const CalculatorWrapper = () => {
+const CalculatorWrapper = (props) => {
   return (
     <div className="calculator-wrapper">
-      <CalculatorDisplay result={0} />
+      <CalculatorDisplay result={props.result} />
       <Buttons />
     </div>
   )
