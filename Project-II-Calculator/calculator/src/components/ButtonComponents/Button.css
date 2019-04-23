@@ -1,29 +1,28 @@
 .row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .row--action {
-  grid-template-columns: 3fr 1fr;
+	grid-template-columns: 3fr 1fr;
 }
 
 .button {
-  padding: 2rem;
-  border: 1px solid #989898;
-  font-size: 4.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 300;
+	padding: 2rem;
+	border: 1px solid #989898;
+	font-size: 4.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 300;
 }
 
 .button--white {
-  background: #ffffff;
-  color: #222222;
+	background: #ffffff;
+	color: #222222;
 }
 
 .button--red {
-  background: #a0001d;
-  color: #fefcfd;
+	background: #a0001d;
+	color: #fefcfd;
 }
-
