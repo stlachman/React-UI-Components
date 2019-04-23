@@ -1,9 +1,12 @@
 .calculator-display {
   background: #222222;
-  padding: 2rem 1rem 2rem 0;
+  padding: 2.5rem 1.5rem 2rem 0;
   color: #fff;
-  font-size: 2rem;
   text-align: right;
   border: 2px solid #989898;
   border-bottom: 0;
+}
+
+.calculator-display span {
+  font-size: 7rem;
 }

@@ -10,6 +10,11 @@
 .button {
   padding: 2rem;
   border: 1px solid #989898;
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
 }
 
 .button--white {
@@ -21,3 +26,4 @@
   background: #a0001d;
   color: #fefcfd;
 }
+
