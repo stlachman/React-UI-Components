@@ -1,5 +1,15 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.row--action {
+  grid-template-columns: 3fr 1fr;
+}
+
 .button {
   padding: 2rem;
+  border: 1px solid #989898;
 }
 
 .button--white {

@@ -3,9 +3,9 @@ import './Button.css';
 
 const NumberButton = (props) => {
   return (
-    <div className={`button button--${props.buttonProps.color}`}>
-      {props.buttonProps.text}
-    </div>
+    <button className={`button button--${props.color}`} value={props.text}>
+      {props.text}
+    </button>
   )
 }
 
