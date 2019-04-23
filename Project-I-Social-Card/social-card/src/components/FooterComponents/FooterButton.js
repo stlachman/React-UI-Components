@@ -4,7 +4,7 @@ import "./Footer.css";
 function FooterButton(props) {
   return (
     <button className="footer-button">
-        <i class="far fa-comment fa-flip-horizontal"></i>
+        <i className="far fa-comment fa-flip-horizontal"></i>
     </button>
   );
 }
