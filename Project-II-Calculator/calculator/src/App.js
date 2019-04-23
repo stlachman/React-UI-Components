@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
+import CalculatorWrapper from './components/CalculatorWrapper/CalculatorWrapper';
 
 const App = () => {
   return (
-   <div className="wrapper">
-     <CalculatorDisplay result={0} />
-   </div>
+   <CalculatorWrapper />
   );
 };
 

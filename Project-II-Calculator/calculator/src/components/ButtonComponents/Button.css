@@ -1,0 +1,13 @@
+.button {
+  padding: 2rem;
+}
+
+.button--white {
+  background: #ffffff;
+  color: #222222;
+}
+
+.button--red {
+  background: #a0001d;
+  color: #fefcfd;
+}

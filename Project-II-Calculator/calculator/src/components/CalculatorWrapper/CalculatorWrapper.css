@@ -1,0 +1,9 @@
+html {
+  font-size: 62.5%;
+}
+
+.calculator-wrapper {
+  margin: 20px auto 0;
+  max-width: 456px;
+  border: 2px solid #989898;
+}
